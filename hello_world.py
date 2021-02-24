@@ -1,7 +1,7 @@
-print('hello wdorld!')
 
-a = 3
-b = 5
-print(a+ b)
 
-print("new")
+def hello():
+    return print('hello world')
+
+if __name__ == '__main__':
+    hello()
